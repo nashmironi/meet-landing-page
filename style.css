@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+
+
+
+
+:root{
+    --white:#FAFAFA;
+    --lily:#D9B8FF;
+    --ocean:#8FE3F9;
+    --gray:#87879D;
+    --dark:#28283D;
+    --purple:#855FB1;
+    --green:#4D96A9;
+}
+
+
+
+
+
+body{
+    background-color: var(--white);
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    width: 119px;
+    height: 28px;
+    margin-top: 48px;
+    margin-bottom: 54px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wreebi{
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+}
+.group{
+    width: 327px;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+    color: var(--dark);
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+.meet{
+    width: 327px;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;   
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--gray);
+}
+.img{
+    width: 190px;
+}
+.green-btn{
+    width: 193px;
+    height: 58px;
+    border-radius: 29px;
+    background-color: var(--green);
+    margin-top: 36px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+}
+.purple-btn{
+    width: 139px;
+    height: 58px;
+    border-radius: 29px;
+    background-color: var(--purple);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.txt1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.download{
+    font-weight: 900;
+    line-height: 26px;
+    font-size: 16px;
+    font-family: "Red Hat Display", sans-serif;
+    color: var(--white);
+}
+.v1{
+    font-weight: 900;
+    line-height: 26px;
+    font-size: 16px;
+    font-family: "Red Hat Display", sans-serif;
+    color: var(--ocean);
+}
+.zoli{
+    width: 0px;
+    height: 84px;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    color: var(--gray);
+}
+.ovali{
+    border-radius: 29px;
+    width: 56px;
+    height: 56px;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.jandaba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+}
+.zoma{
+    width: 151px;
+    height: 143px;
+    border-radius: 8px;
+
+}
+.N1{
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.photos{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 65px;
+}
+.built{
+    font-size: 16px;
+    color: var(--green);
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 900;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.smart{
+    width: 327px;
+    text-align: center;
+    color: var(--dark);
+    font-size: 32px;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 900;
+    line-height: 36px; 
+}
+.send{
+    width: 327px;
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--gray);
+    font-size: 16px;
+    font-family: "Red Hat Display", sans-serif;
+    text-align: center;
+}
+.textebi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 56px;
+}
+.bolo{
+    width: 375px;
+    background-image: url(./image-footer.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 64px;
+    
+}
+.jandaba2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-top: 1660px;
+}
+.vashli{
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(77, 150, 169, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.experience{
+    width: 327px;
+    font-family: "Red Hat Display", sans-serif;
+    text-align: center;
+    color: var(--white);
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    margin-top: 90px;
+}
+.stay{
+    width: 327px;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--white);
+}
+.btn3{
+    width: 193px;
+    height: 58px;
+    border-radius: 29px;
+    background-color: var(--purple);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 63px;
+}
+
+.v13{
+    color: var(--lily);
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px; 
+}
+@media(min-width:768px){
+
+    .wreebi{
+        width: 820px;
+        height: 303px;
+        justify-content: center;
+       
+    }
+    .img{
+       width: 395px;
+    }
+    .group{
+        width: 339px;
+        font-size: 48px;
+        line-height: 48px;
+        margin-top: 72px;
+    }
+    .meet{
+        width: 457px;
+
+    }
+    .buttons{
+        align-items: center;
+        flex-direction: row;
+        gap: 16px;
+        margin-bottom: 80px;
+    }
+    .green-btn{
+        margin-top: 20px;
+    }
+    .photos{
+        flex-direction: row;
+    }
+    .zoma{
+        width: 164px;
+        height: 156px;
+    }
+    .smart{
+        width: 445px;
+        font-size: 40px;
+        line-height: 44px;
+        margin-top: 16px;
+
+    }
+    .send{
+        width: 573px;
+        margin: 0px;
+    }
+    .built{
+        margin: 0px;
+    }
+   .bolo{ 
+    width: 768px;
+    background-image: url(./image-footer-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 80px;
+   }
+   .experience{
+    width: 457px;
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 80px;
+    margin-bottom: 32px;
+
+   }
+   .stay{
+    width: 573px;
+    margin-bottom: 40px;
+   }
+   .jandaba2{
+    margin-top: 1580px;
+   }
+}
+@media(min-width:1440px){
+  
+     .logo{
+        margin-top: 80px;
+     }
+     .wreebi{
+        width: 1440px;
+        gap: 716px;
+        margin-top: 61px;
+     }
+     .txt1{
+        position: absolute;
+        margin-top: 180px;
+        
+    }
+    .jandaba{
+        margin-top: 117px;
+    }
+    .zoma{
+        width: 255px;
+        height: 242px;
+    }
+    .built{
+        margin-top: 58px;
+    }
+    .bolo{ 
+        width: 1455px;
+        background-image: url(./image-footer-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        margin-top: 160px;
+       
+       }
+       .vashli{
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+       }
+       .experience{
+        width: 350px;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: left;
+        margin: 116px 125px 104px 164px;
+        
+    
+       }
+       .stay{
+        width: 350px;
+        text-align: left;
+        margin: 116px 92px 115px 0px;
+
+       }
+       .jandaba2{
+        margin-top: 1500px;
+       }
+       .btn3{
+        margin-top: 85px;
+
+       }
+       .btn3:hover{
+        background-color: var(--lily);
+       }
+       .green-btn:hover{
+        background-color: var(--ocean);
+       }
+       .purple-btn:hover{
+        background-color:var(--lily);
+       }
+       
+
+
+}
